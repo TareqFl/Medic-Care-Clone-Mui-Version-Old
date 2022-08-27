@@ -1,0 +1,58 @@
+.Carousel {
+    position: relative;
+    margin-top: 8%;
+
+    .onCarousel {
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        width: 550px;
+        padding: 32px;
+
+
+
+    }
+}
+
+.speech-bubble {
+    position: relative;
+    background: #000000;
+    border-radius: .4em;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 17px solid transparent;
+    border-left-color: #000000;
+    border-right: 0;
+    margin-top: -17px;
+    margin-right: -17px;
+}
+
+
+.speech-bubble2 {
+    position: relative;
+    background: #000000;
+    border-radius: .4em;
+}
+
+.speech-bubble2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 17px solid transparent;
+    border-right-color: #000000;
+    border-left: 0;
+    margin-top: -17px;
+    margin-left: -17px;
+}
